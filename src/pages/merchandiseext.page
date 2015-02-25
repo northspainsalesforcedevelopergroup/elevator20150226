@@ -1,3 +1,0 @@
-<apex:page StandardController="Merchandise__c" extensions="MerchandiseControllerExt">
-<!-- ... --->
-</apex:page>

@@ -1,0 +1,11 @@
+<apex:page controller="ProductoController">
+    <apex:form >
+        <apex:pageBlock title="Lista de Productos" id="products_list">
+            <apex:pageBlockTable value="{! productos }" var="producto">    
+                <apex:column value="{! producto.nombre }"/>
+                <apex:column value="{! producto.cantidad }"/>
+                <apex:column value="{! producto.precio }"/>
+           </apex:pageBlockTable>   
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

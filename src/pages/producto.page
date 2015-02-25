@@ -1,0 +1,10 @@
+<apex:page sidebar="false" standardController="Producto__c">    
+    <apex:pageBlock title="Lista de Productos">
+        <apex:pageBlockSection >            
+            Nombre: {! Producto__c.Name } <br/>
+            Precio: {! Producto__c.Precio__c } <br/>
+            Cantidad: {! Producto__c.Cantidad__c } <br/>
+            Propietario del producto: {! Producto__c.Owner.Name } <br/>
+        </apex:pageBlockSection>
+    </apex:pageBlock>  
+</apex:page>
